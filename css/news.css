@@ -1,0 +1,140 @@
+.bannerBox {
+    width:100%; 
+    position:relative;
+    height:80px;
+}
+
+.bannerBox .navBox {
+    width:100%;
+    height:80px;
+    background-color:rgba(255,255,255,1);
+}
+
+.bannerBox .navBox .logoBox {
+    width:400px;
+    height:60px;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    position:relative;
+}
+
+.bannerBox .navBox .logoBox img {
+    width:auto;
+    height:100%;
+    float:left;
+    margin-right:10px;
+}
+
+.bannerBox .navBox .logoBox span {
+    float:left;
+    height:15px;
+    font-size:24px;
+    color:#333;
+    bottom:20px;
+    position:absolute;
+}
+
+.bannerBox .navBox .logoBox span b {
+    font-size:16px;
+    font-weight:300;
+    color:#666;
+}   
+
+.bannerBox .navBox .menuBox {
+    width:600px;
+    height:60px;
+    position:relative;
+    float:right;
+    margin-top:10px;
+}
+
+.bannerBox .navBox .menuBox  span {
+    width:100px;
+    height:60px;
+    float:left;
+    display:block;
+    text-align: center;
+    position:relative;
+}
+
+.bannerBox .navBox .menuBox a {
+    color:#333;
+    position:absolute;
+    bottom:5px;
+    left:0px;
+    font-size:16px;
+}
+
+.bannerBox .navBox .selectedMenuBox {
+    width:32px;
+    height:2px;
+    background:#666;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+
+}
+
+.newsBox {
+    width:90%;
+    height:auto;
+    background:#fff;
+    margin:0px auto;
+    border-radius:5px;
+    margin-top:30px;
+    
+}
+
+.newsBox .newsItemBox {
+    width:100%;
+    padding-left:20px;
+    height:200px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+
+.newsBox .newsItemBox h3 {
+    font-weight:300;
+    width:100%;
+    font-size:24px;
+    height:30px;
+    float:left;
+    margin-top:15px;
+    padding-left:15px;
+}
+
+.newsBox .newsItemBox .newsInfo {
+    width:100%;
+    height:20px;
+    float:left;
+    line-height:20px;
+    margin-top:20px;
+    color:#999;
+    padding-left:15px;
+}
+
+.newsBox .newsItemBox .newsInfo b {
+    color:red;
+}
+
+.newsBox .newsItemBox .newsContent {
+    width:95%;
+    height:60px;
+    float:left;
+    margin-top:10px;
+    padding-left:15px;
+    line-height:24px;
+    color:#666;
+    font-weight:300;
+}
+
+.newsBox .newsItemBox .showDetailBtn {
+    width:100px;
+    float:left;
+    height:20px;
+    margin-top:10px;
+    color:red;
+    padding-left:15px;
+}

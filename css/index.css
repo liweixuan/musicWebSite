@@ -1,0 +1,178 @@
+.bannerBox {
+    background: url("../resource/images/yueqi_2.jpeg") no-repeat;
+    background-size: 100%; 
+    width:100%; 
+    position:relative;
+    height:100%;
+}
+
+.bannerBox .navBox {
+    width:100%;
+    height:80px;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.bannerBox .navBox .logoBox {
+    width:400px;
+    height:60px;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    position:relative;
+}
+
+.bannerBox .navBox .logoBox img {
+    width:auto;
+    height:100%;
+    float:left;
+    margin-right:10px;
+}
+
+.bannerBox .navBox .logoBox span {
+    float:left;
+    height:15px;
+    font-size:24px;
+    color:#fff;
+    bottom:20px;
+    position:absolute;
+}
+
+.bannerBox .navBox .logoBox span b {
+    font-size:16px;
+    font-weight:300;
+    color:#eee;
+}   
+
+.bannerBox .navBox .menuBox {
+    width:600px;
+    height:60px;
+    position:relative;
+    float:right;
+    margin-top:10px;
+}
+
+.bannerBox .navBox .menuBox  span {
+    width:100px;
+    height:60px;
+    float:left;
+    display:block;
+    text-align: center;
+    position:relative;
+}
+
+.bannerBox .navBox .menuBox a {
+    color:#fff;
+    position:absolute;
+    bottom:5px;
+    left:0px;
+    font-size:16px;
+}
+
+.bannerBox .navBox .selectedMenuBox {
+    width:32px;
+    height:2px;
+    background:#fff;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+
+}
+
+.bannerBox  .bannerContentBox {
+    width:400px;
+    height:200px;
+    float:left;
+    color:#fff;
+    margin-top:100px;
+    margin-left:150px;
+}
+
+.bannerBox  .bannerContentBox p {
+    height:30px;
+    font-size:20px;
+    opacity:0.8;
+}
+
+.bannerBox  .bannerContentBox .downLoadBtn {
+    width:200px;
+    height:50px;
+    background-color:rgba(0,0,0,0.5);
+    margin-top:15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #000;
+    line-height:50px;
+    cursor:pointer;
+    font-size:20px;
+}
+
+.bannerBox .bannerContentBox .downLoadBtn:hover {
+    box-shadow: 2px 2px 20px #999;
+}
+
+.bannerBox .newsBox {
+    width:100%;
+    height:160px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background:rgba(255,255,255,0.5);
+}
+
+.bannerBox .newsBox .newsItemBox {
+    width:20%;
+    height:160px;
+    float:left;
+}
+
+.bannerBox .newsBox .newsItem {
+    width:98%;
+    height:150px;
+    background:#fff;
+    margin-top:5px;
+    position:relative;
+    margin-left:1%;
+}
+
+.bannerBox .newsBox .newsItem:hover {
+    box-shadow: 2px 2px 20px #fff;
+    cursor:pointer;
+}
+
+.bannerBox .newsBox .newsItem .newsTitle {
+    width:80%;
+    height:50px;
+    text-align: center;
+    position:absolute;
+    color:#fff;
+    left:10%;
+    top:30px;
+}
+
+.bannerBox .newsBox .newsItem  .showDetailBtn {
+    width:120px;
+    height:35px;
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    border:1px solid #eee;
+    border-radius: 50px;
+    margin-left:-60px;
+    color:#fff;
+    text-align: center;
+    line-height:35px;
+}
+
+.bannerBox .newsBox .newsItem  .showDetailBtn:hover {
+    background:#fff;
+    color:#999;
+    cursor:pointer;
+}
+
+.bannerBox .newsBox .newsItem img {
+    width:100%;
+    height:100%;
+}
+
+
+

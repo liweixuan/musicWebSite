@@ -1,0 +1,160 @@
+.bannerBox {
+    background: url("../resource/images/yueqi_11.jpeg") no-repeat;
+    background-size: 100%;
+    width:100%;
+    position:relative;
+    height:60%;
+}
+
+.bannerBox .bannerAlphaBg {
+    width:100%;
+    height:100%;
+    background-color:rgba(224,80,61,0.4);
+    top:0px;
+    left:0px;
+    position:absolute;
+}
+
+.bannerBox .bannerHint {
+    width:300px;
+    height:60px;
+    position:absolute;
+    font-size:30px;
+    left:50%;
+    margin-left:-150px;
+    top:40%;
+    letter-spacing:3px;
+    text-align: center;
+    color:#fff;
+}
+
+.bannerBox .navBox {
+    width:100%;
+    height:80px;
+    z-index:9999;
+    position:relative;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.bannerBox .navBox .logoBox {
+    width:400px;
+    height:60px;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    position:relative;
+}
+
+.bannerBox .navBox .logoBox img {
+    width:auto;
+    height:100%;
+    float:left;
+    margin-right:10px;
+}
+
+.bannerBox .navBox .logoBox span {
+    float:left;
+    height:15px;
+    font-size:24px;
+    color:#fff;
+    bottom:20px;
+    position:absolute;
+}
+
+.bannerBox .navBox .logoBox span b {
+    font-size:16px;
+    font-weight:300;
+    color:#eee;
+}   
+
+.bannerBox .navBox .menuBox {
+    width:600px;
+    height:60px;
+    position:relative;
+    float:right;
+    margin-top:10px;
+}
+
+.bannerBox .navBox .menuBox  span {
+    width:100px;
+    height:60px;
+    float:left;
+    display:block;
+    text-align: center;
+    position:relative;
+}
+
+.bannerBox .navBox .menuBox a {
+    color:#fff;
+    position:absolute;
+    bottom:5px;
+    left:0px;
+    font-size:16px;
+}
+
+.bannerBox .navBox .selectedMenuBox {
+    width:32px;
+    height:2px;
+    background:#fff;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+
+}
+
+.downLoadBox {
+    width:90%;
+    height:400px;
+    background:#fff;
+    border-radius: 10px;
+    margin-top:-60px;
+    position:relative;
+    left:50%;
+    margin-left:-45%;
+}
+
+.downLoadBox .phoneBox {
+    width:350px;
+    height:480px;
+    background:orange;
+    position:absolute;
+    top:-150px;
+    background: url("../resource/images/section-phone.png") no-repeat;
+    background-size: cover;
+    left:150px;
+}
+
+.downLoadBox .downLoadBtn {
+    width:400px;
+    height:180px;
+    top:75px;
+    position:absolute;
+    right:150px;
+}
+
+
+.downLoadBox .downLoadBtn .btnItem {
+    width:280px;
+    height:70px;
+    background-color:rgba(0,0,0,0.8);
+    box-shadow: 5px 5px 10px #999;
+    border-radius:50px;
+    color:#fff;
+    text-align:center;
+    line-height:70px;
+    margin-top:30px;
+    position:relative;
+    cursor:pointer;
+}
+
+.downLoadBox .downLoadBtn .btnItem img {
+    width:30px;
+    position:absolute;
+    height:auto;
+    left:50px;
+}
+
+.downLoadBox .downLoadBtn .btnItem:hover {
+    background-color:rgba(50,50,50,0.8);
+  
+}
